@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    
+    <link rel="shortcut icon" href="assets/images/q.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 logo">
+                    <img src="assets/images/logo.png" alt="logo"/>
+                </div>
+                <div class="col-lg-6 git">
+                    <a href="" target="_blank"><i class="fa fa-github" style="width: 50px;"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container sadrzaj">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Star Wars Movies</h1>
+            
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4"> 
+                <div class='ispis1'>
+                    <h3 class="title1"></h3>
+                    <i><h6 class="opening_crawl1"></h6></i>
+                    <br>
+                    <p class="director1"></p>
+                    <p class="producer1"></p>
+                    <p class="release_date1"></p>
+                </div>
+            </div>
+
+            <div class="col-lg-4"> 
+                <div class='ispis2'>
+                    <h3 class="title2"></h3>
+                    <i><h6 class="opening_crawl2"></h6></i>
+                    <br>
+                    <p class="director2"></p>
+                    <p class="producer2"></p>
+                    <p class="release_date2"></p>
+                </div>
+            </div>
+
+            <div class="col-lg-4"> 
+                <div class='ispis3'>
+                    <h3 class="title3"></h3>
+                    <i><h6 class="opening_crawl3"></h6></i>
+                    <br>
+                    <p class="director3"></p>
+                    <p class="producer3"></p>
+                    <p class="release_date3"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <button type="button" id="taster" name="taster" onclick="myFunction()">Show Graph</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="myDIV">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row grafik">
+                    <div class="col-lg-12">
+                        <canvas id="myChart" class="grafikon" width="400" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+
+</body>
+
+<!-- Axios JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+<!-- Custom JS -->
+<script type="text/javascript" src="assets/js/index.js"></script>
+</html>
