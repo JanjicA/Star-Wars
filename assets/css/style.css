@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color:#fcfbf9;
+    
+}
+header{
+    background-color:#fcfbf9;
+}
+.logo{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo img{
+    width: 100px;
+    height: 50px;
+}
+.git a i{
+    color:black;
+    font-size: 34pt;
+    height: auto;
+}
+.git a i:hover{
+    color:green;
+    
+}
+.git{
+    text-align: right;
+    padding-top: 10px;
+}
+body{
+    background-image: url('../images/dw.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ispis1{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    border: 4px solid blue;
+    align-items: center;
+}
+.ispis2{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    border: 4px solid green;
+    align-items: center;
+}
+.ispis3{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    border: 4px solid red;
+    align-items: center;
+}
+.sadrzaj{
+    padding-bottom: 100px;
+}
+
+.grafik{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#taster{
+    margin-top: 100px;
+    color:black !important;
+    padding: 5px;
+    border-radius: 0.9em;
+}
+#myDIV{
+    display: none;
+}
+
+
+
+
